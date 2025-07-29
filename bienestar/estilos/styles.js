@@ -36,6 +36,7 @@ export default StyleSheet.create({
         fontWeight: '500',
     },
     content: {
+        
         flex: 1,
         paddingHorizontal: 20,
         justifyContent: 'center',
@@ -136,5 +137,49 @@ export default StyleSheet.create({
         color: '#fff',
         fontSize: 16,
         fontWeight: 'bold',
+    },
+    dropdown:{
+        position: 'absolute',
+        display:"none",
+    },
+     dropdown2:{
+        position: 'absolute',
+        width: '70%',
+        top: 20,
+    },
+    dropDownContainer2:{
+position: 'absolute',
+        width: '70%',
+        top: 70,
+        backgroundColor: '#f8f9ff',
+        borderColor: '#667eea',
+        borderWidth: 1,
+        borderRadius: 10,
+    },
+    speechButton:{
+        display: 'flex',
+        flexDirection: 'row',
+        alignItems: 'center',
+        gap: 10,
+        
+        position: 'absolute',
+        top: 0,
+        left: 30,
+        backgroundColor: '#667eea',
+        borderRadius: 50,
+        padding: 15,
+        elevation: 5,
+    }
+    ,
+    playButton:{
+        display: 'flex',
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
+       
+        backgroundColor: '#fff',
+        borderRadius: 50,
+        padding: 5,
+        elevation: 3,
     }
 })
