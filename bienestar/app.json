@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "bienestar",
+    "name": "PSM",
     "slug": "bienestar",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -21,14 +21,14 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.sanprogramer.sankiss"
+      "package": "com.sanprogramer.kis"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "a79bc0ef-91ae-4bf9-8534-9cb2adbdd88f"
+        "projectId": "1ca9b562-3071-4415-8f0f-8492d245c7b0"
       }
     }
   }
