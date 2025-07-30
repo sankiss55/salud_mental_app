@@ -33,19 +33,19 @@ export default function PagConcejos({ navigation, route }) {
           id: 1,
           titulo: "Utilizar una pelota aplastable",
           descripcion: "Mantén una pelota antiestrés en tu bolsillo o escritorio. Apretarla puede ayudar a liberar tensión y canalizar la energía nerviosa de manera física.",
-          icono: "🏐"
+          icono: "ellipse-outline"
         },
         {
           id: 2,
           titulo: "Actívate",
-          descripcion: "Ir a dar un paseo o realizar alguna actividad física ayuda a controlar la ansiedad. El ejercicio libera endorfinas que mejoran tu estado de ánimo.",
-          icono: "🚶‍♀️"
+          descripcion: "Ir a dar un paseo o realizar alguna actividad física ayuda a controlar la ansiedad.",
+          icono: "walk-outline"
         },
         {
           id: 3,
           titulo: "Respiración diafragmática",
-          descripcion: "La mejor forma de aprender a hacerlo es estando tumbado. Pon una mano en tu pecho y otra debajo de los pulmones, en el punto en el que acaban tus costillas.\n\nAl aspirar, hazlo despacio y desplazando el aire hacia abajo, intentando que el pecho no se mueva y que se te hinchen el estómago y la barriga.\n\nRetén el aire un poco y después suéltalo lentamente, hundiendo la barriga e intentando que el pecho no se mueva, tratando de mantenerte en estado de relajación.\n\nRepite la acción intentando hacerlo cada vez más despacio. Para aprender, es buena idea practicar la técnica antes de necesitar utilizarla, cuando dispongas de tiempo e intimidad.",
-          icono: "🫁"
+          descripcion: "La mejor forma de aprender a hacerlo es estando tumbado. Pon una mano en tu pecho y otra debajo de los pulmones, en el punto en el que acaban tus costillas. Al aspirar, hazlo despacio y desplazando el aire hacia abajo, intentando que el pecho no se mueva y que se te hinchen el estómago y la barriga. Retén el aire un poco y después suéltalo lentamente, hundiendo la barriga e intentando que el pecho no se mueva, tratando de mantenerte en estado de relajación. Repite la acción intentando hacerlo cada vez más despacio. Para aprender, es buena idea practicar la técnica antes de necesitar utilizarla, cuando dispongas de tiempo e intimidad.",
+          icono: "medkit-outline"
         }
       ]
     },
@@ -59,31 +59,31 @@ export default function PagConcejos({ navigation, route }) {
           id: 1,
           titulo: "Baño con agua caliente antes de dormir",
           descripcion: "Tomar un baño caliente antes de acostarte ayuda a relajar los músculos y reduce la temperatura corporal, preparando tu cuerpo para el sueño.",
-          icono: "🛁"
+          icono: "water-outline"
         },
         {
           id: 2,
           titulo: "Dejar aparatos electrónicos",
-          descripcion: "Evita el uso de dispositivos electrónicos de una a dos horas antes de dormir. La luz azul puede interferir con la producción de melatonina.",
-          icono: "📱"
+          descripcion: "Evita el uso de dispositivos electrónicos de una a dos horas antes de dormir.",
+          icono: "phone-portrait-outline"
         },
         {
           id: 3,
           titulo: "Tomar té de canela antes de dormir",
           descripcion: "El té de canela tiene propiedades relajantes y puede ayudar a reducir los niveles de azúcar en sangre, facilitando un sueño más reparador.",
-          icono: "🍵"
+          icono: "cafe-outline"
         },
         {
           id: 4,
-          titulo: "Escuchar música relajante",
+          titulo: "Escuchar música relajante antes de dormir",
           descripcion: "La música suave y relajante puede ayudar a reducir el estrés y preparar tu mente para el descanso.",
-          icono: "🎵"
+          icono: "musical-notes-outline"
         },
         {
           id: 5,
           titulo: "Leer antes de dormir",
           descripcion: "La lectura ligera puede ayudar a relajar la mente y crear una rutina que señale a tu cuerpo que es hora de dormir.",
-          icono: "📚"
+          icono: "book-outline"
         }
       ]
     },
@@ -93,74 +93,76 @@ export default function PagConcejos({ navigation, route }) {
       subtitulo: 'Estrategias para niños y adultos',
       intro: 'El TDAH no es un límite, sino una forma diferente de procesar el mundo. Estos consejos están organizados para niños y adultos.',
       consejos: [
+        // Niños
         {
           id: 1,
-          titulo: "Programa diario ",
+          titulo: "Programa diario",
           descripcion: "Establecer un horario estructurado con actividades regulares puede ayudar a los niños con TDAH a anticipar y prepararse para las tareas y rutinas diarias.",
-          icono: "📅",
+          icono: "calendar-outline",
           categoria: "Niños"
         },
         {
           id: 2,
-          titulo: "Listas de tareas ",
+          titulo: "Listas de tareas",
           descripcion: "Utilizar listas visuales de tareas, priorizando las más importantes y dividiéndolas en pasos más pequeños, puede hacer que las tareas parezcan menos abrumadoras.",
-          icono: "📝",
+          icono: "list-outline",
           categoria: "Niños"
         },
         {
           id: 3,
-          titulo: "Atención plena ",
+          titulo: "Atención plena",
           descripcion: "Técnicas como la meditación o el yoga pueden ayudar a los niños a mejorar su capacidad de concentración y a manejar la impulsividad.",
-          icono: "🧘‍♀️",
+          icono: "leaf-outline",
           categoria: "Niños"
         },
         {
           id: 4,
-          titulo: "Actividad física de su agrado ",
+          titulo: "Realizar actividad física de su agrado",
           descripcion: "Realizar ejercicio físico que disfruten ayuda a canalizar la energía y mejorar la concentración en los niños con TDAH.",
-          icono: "⚽",
+          icono: "bicycle-outline",
           categoria: "Niños"
         },
         {
           id: 5,
-          titulo: "Reducción de distracciones ",
+          titulo: "Reducción de distracciones",
           descripcion: "Minimizar las distracciones en el entorno, como ruidos o estímulos visuales, puede mejorar la capacidad de atención de los niños.",
-          icono: "🔇",
+          icono: "remove-circle-outline",
           categoria: "Niños"
         },
+        // Adultos
         {
           id: 6,
-          titulo: "Agendas y listas de tareas ",
+          titulo: "Agendas y listas de tareas",
           descripcion: "Utilizar una agenda o un organizador diario para anotar citas, tareas y recordatorios importantes.",
-          icono: "📋",
+          icono: "document-text-outline",
           categoria: "Adultos"
         },
         {
           id: 7,
           titulo: "Técnica Pomodoro",
           descripcion: "Dividir las tareas en intervalos de tiempo con descansos cortos para mantener la concentración y evitar el agotamiento.",
-          icono: "⏰",
+          icono: "timer-outline",
           categoria: "Adultos"
         },
         {
           id: 8,
-          titulo: "Regla 1-3-5 ",
+          titulo: "Regla 1-3-5",
           descripcion: "Priorizar las tareas diarias estableciendo una tarea importante, tres intermedias y cinco menores.",
-          icono: "🎯",
+          icono: "checkmark-done-outline",
           categoria: "Adultos"
         },
         {
           id: 9,
-          titulo: "Eliminar distracciones ",
+          titulo: "Eliminar distracciones",
           descripcion: "Crear un ambiente de trabajo libre de distracciones visuales y auditivas.",
-          icono: "🎧",
+          icono: "eye-off-outline",
           categoria: "Adultos"
         },
         {
           id: 10,
-          titulo: "Actividad física de su agrado ",
+          titulo: "Practicar actividad física de su agrado",
           descripcion: "Practicar ejercicio físico regular que disfrutes ayuda a mejorar la concentración y el bienestar general.",
-          icono: "🏃‍♀️",
+          icono: "fitness-outline",
           categoria: "Adultos"
         }
       ]
@@ -173,33 +175,33 @@ export default function PagConcejos({ navigation, route }) {
       consejos: [
         {
           id: 1,
-          titulo: "Técnica de respiración 4-7-8",
-          descripcion: "Inhala por 4 segundos, mantén el aire por 7 segundos y exhala por 8 segundos. Esta técnica activa el sistema nervioso parasimpático, promoviendo la relajación.",
-          icono: "🫁"
+          titulo: "Aprende a identificar los detonadores de estrés",
+          descripcion: "Tómate un tiempo para reconocer los momentos o situaciones que te provocan malestar. Haz un ejercicio de autoconocimiento y consciencia para identificar tus fuentes de estrés. Una vez que las reconozcas, será más fácil tomar medidas para que no te afecten tanto o, si es posible, evitarlas.",
+          icono: "search-outline"
         },
         {
           id: 2,
-          titulo: "Ejercicio físico regular",
-          descripcion: "La actividad física libera endorfinas, reduce los niveles de cortisol y ayuda a procesar el estrés de manera saludable.",
-          icono: "🏃‍♀️"
+          titulo: "Haz ejercicio",
+          descripcion: "El ejercicio ayuda a disminuir el estrés. Incluso caminar durante 15 minutos puede ayudarte a liberar lo que no te deja estar tranquilo. Recuerda que las distracciones pueden ser solo momentáneas, pero el ejercicio regular es clave.",
+          icono: "walk-outline"
         },
         {
           id: 3,
-          titulo: "Organización y planificación",
-          descripcion: "Crear listas de tareas, establecer prioridades y organizar tu tiempo te ayudará a sentir mayor control sobre tu día.",
-          icono: "📝"
+          titulo: "Establece tus límites y prioridades",
+          descripcion: "Define qué puedes tolerar y qué no. Establecer límites contigo y con los demás te ayuda a evitar situaciones estresantes. Puedes escribir en una hoja tus 'límites' y lo que 'no toleras' en diferentes ámbitos de tu vida para identificarlos mejor.",
+          icono: "options-outline"
         },
         {
           id: 4,
-          titulo: "Tiempo para ti mismo",
-          descripcion: "Dedica al menos 15-30 minutos diarios a actividades que disfrutes, como leer, escuchar música o meditar.",
-          icono: "🧘‍♀️"
+          titulo: "Di 'no'",
+          descripcion: "No tienes que quedar bien con todos. Negarte de vez en cuando a ayudar a los demás es saludable. Rechazar situaciones que no quieres hacer ayuda a tu salud mental y reduce el estrés y la preocupación.",
+          icono: "close-circle-outline"
         },
         {
           id: 5,
-          titulo: "Límites saludables",
-          descripcion: "Aprende a decir 'no' cuando sea necesario y establece límites claros entre el trabajo y la vida personal.",
-          icono: "🚧"
+          titulo: "Ejercicios de respiración",
+          descripcion: "Cuando sientas estrés, realiza ejercicios de respiración: inhala lento por la nariz, sostén por unos 5 segundos y exhala por la boca. Concéntrate en tu respiración para relajarte y reducir pensamientos negativos. Puedes cerrar los ojos y repetir la técnica 2-3 veces.",
+          icono: "cloud-outline"
         }
       ]
     },
@@ -211,33 +213,33 @@ export default function PagConcejos({ navigation, route }) {
       consejos: [
         {
           id: 1,
-          titulo: "Identificación emocional",
-          descripcion: "Practica nombrar tus emociones específicamente. En lugar de 'me siento mal', di 'me siento frustrado' o 'me siento decepcionado'.",
-          icono: "🎭"
+          titulo: "Entiende tus emociones",
+          descripcion: "Tómate un tiempo para reflexionar sobre lo que sientes y por qué reaccionas de cierta manera. Una estrategia útil es llevar un diario emocional: dedica 10-20 minutos antes de dormir para repasar tu día, anotar cómo te sentiste, por qué y qué podrías mejorar. Así aprenderás a gestionar mejor tus emociones en el futuro.",
+          icono: "journal-outline"
         },
         {
           id: 2,
-          titulo: "Técnica STOP",
-          descripcion: "Cuando sientas una emoción intensa: PARA lo que estás haciendo, TOMA una respiración profunda, OBSERVA lo que sientes y PROCEDE con calma.",
-          icono: "🛑"
+          titulo: "Trabaja la autoaceptación",
+          descripcion: "Todos podemos equivocarnos, es parte de la vida. Quiérete tal y como eres, así te sentirás menos frustrado y tendrás más paciencia para afrontar los conflictos en tus relaciones diarias.",
+          icono: "happy-outline"
         },
         {
           id: 3,
-          titulo: "Diario emocional",
-          descripcion: "Escribe sobre tus emociones diariamente. Esto te ayuda a procesar sentimientos y identificar patrones emocionales.",
-          icono: "📖"
+          titulo: "Retírate en el momento adecuado",
+          descripcion: "Está bien intentar mantener una actitud positiva, pero a veces el estímulo negativo sigue presente. Si te provocan o la situación te supera, lo mejor es retirarse y marcharse antes de que el conflicto crezca.",
+          icono: "exit-outline"
         },
         {
           id: 4,
-          titulo: "Validación emocional",
-          descripcion: "Acepta que todas las emociones son válidas. No juzgues lo que sientes, simplemente reconócelo y busca formas saludables de expresarlo.",
-          icono: "✅"
+          titulo: "Adopta una rutina de higiene del sueño",
+          descripcion: "Dormir bien te ayuda a equilibrar tus emociones y ser menos vulnerable al estrés y la impulsividad. Establece un horario claro para dormir, asegúrate de descansar lo suficiente y crea un ambiente cómodo y sin ruido.",
+          icono: "bed-outline"
         },
         {
           id: 5,
-          titulo: "Red de apoyo",
-          descripcion: "Comparte tus sentimientos con personas de confianza. Hablar sobre las emociones puede ayudar a procesarlas mejor.",
-          icono: "🤝"
+          titulo: "Practica Mindfulness",
+          descripcion: "El mindfulness te ayuda a estar en el presente, con una mentalidad no enjuiciadora y una actitud de compasión hacia ti y los demás. Mejora la concentración, reduce el estrés y aumenta la autoconciencia.",
+          icono: "infinite-outline"
         }
       ]
     },
@@ -250,32 +252,32 @@ export default function PagConcejos({ navigation, route }) {
         {
           id: 1,
           titulo: "Escucha activa",
-          descripcion: "Presta atención completa cuando otros hablen. Haz preguntas, parafrasea lo que escuchaste y muestra interés genuino.",
-          icono: "👂"
+          descripcion: "Escuchar activamente es poner atención plena a lo que la otra persona expresa, comprender y responder sin juicios, desde el respeto. La comunicación no verbal es clave: mantén una postura abierta, contacto ocular y cercanía sin invadir el espacio personal.",
+          icono: "ear-outline"
         },
         {
           id: 2,
-          titulo: "Comunicación asertiva",
-          descripcion: "Expresa tus opiniones y necesidades de manera clara y respetuosa, sin ser agresivo ni pasivo.",
-          icono: "💬"
+          titulo: "Regulación emocional",
+          descripcion: "Todos podemos tener un mal día y desbordarnos. Aprende a identificar lo que sientes, ponle nombre, localízalo en tu cuerpo y usa estrategias para canalizar la emoción (respira hondo, busca un espacio tranquilo, imagina un lugar agradable, expresa y desahógate).",
+          icono: "pulse-outline"
         },
         {
           id: 3,
-          titulo: "Empatía",
-          descripcion: "Intenta entender las perspectivas y sentimientos de otros. Ponte en su lugar antes de juzgar o responder.",
-          icono: "❤️"
+          titulo: "Técnica del sándwich",
+          descripcion: "Cuando debas dar una crítica, hazlo con inteligencia emocional: inicia validando, expón el aspecto negativo y cierra con un aliento o motivación. Así mantienes la asertividad y cuidas la relación.",
+          icono: "layers-outline"
         },
         {
           id: 4,
-          titulo: "Lenguaje corporal positivo",
-          descripcion: "Mantén contacto visual apropiado, sonríe genuinamente y usa una postura abierta para transmitir confianza y amabilidad.",
-          icono: "🤗"
+          titulo: "Resolución de conflictos",
+          descripcion: "Los desacuerdos son normales y necesarios para crecer. Aprende a gestionarlos de forma constructiva, expresando tus puntos de vista y escuchando los de los demás. El conflicto bien manejado es motor de cambio.",
+          icono: "hand-left-outline"
         },
         {
           id: 5,
-          titulo: "Resolución de conflictos",
-          descripcion: "Cuando surjan desacuerdos, enfócate en el problema, no en la persona. Busca soluciones en conjunto y mantén la calma.",
-          icono: "🤝"
+          titulo: "Seguridad en ti mismo/a",
+          descripcion: "Los miedos sociales afectan cómo nos relacionamos. Afróntalos poco a poco con pequeños retos (saludar, proponer un plan, participar en actividades grupales) para fortalecer tu confianza y seguridad.",
+          icono: "shield-checkmark-outline"
         }
       ]
     }
@@ -357,7 +359,7 @@ export default function PagConcejos({ navigation, route }) {
                   <View style={styles.numeroContainer}>
                     <Text style={styles.numeroText}>{index + 1}</Text>
                   </View>
-                  <Text style={styles.emojiIcon}>{consejo.icono}</Text>
+                  <Icon name={consejo.icono} size={24} color="#667eea" style={styles.emojiIcon} />
                 </View>
                 
                 <View style={styles.consejoContent}>
@@ -377,7 +379,7 @@ export default function PagConcejos({ navigation, route }) {
                   <View style={styles.numeroContainer}>
                     <Text style={styles.numeroText}>{index + 1}</Text>
                   </View>
-                  <Text style={styles.emojiIcon}>{consejo.icono}</Text>
+                  <Icon name={consejo.icono} size={24} color="#667eea" style={styles.emojiIcon} />
                 </View>
                 
                 <View style={styles.consejoContent}>
@@ -395,7 +397,7 @@ export default function PagConcejos({ navigation, route }) {
                 <View style={styles.numeroContainer}>
                   <Text style={styles.numeroText}>{index + 1}</Text>
                 </View>
-                <Text style={styles.emojiIcon}>{consejo.icono}</Text>
+                <Icon name={consejo.icono} size={24} color="#667eea" style={styles.emojiIcon} />
               </View>
               
               <View style={styles.consejoContent}>
